@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a35f02226b6274ba342af7620d6bd6, type: 3}
+  m_Name: Gun
+  m_EditorClassIdentifier: 
+  ID: 3
+  itemName: Gun
+  icon: {fileID: 21300000, guid: 950c1db7913dc554396a913f9bbfe5f1, type: 3}
+  buyPrice: 52
+  sellPrice: 25
+  itemDescription: '<b><color=#a103fc>"Pistol"</color></b>
+
+    Use: Equip / Sell
+    item
+
+
+    Type: Ranged
+
+
+    Strength: 5
+
+    Dexterity: 25
+
+    Stamina: 7
+
+    Intelligence:
+    2
+
+    Tech: 8
+
+    Diplomacy: 1
+
+
+    dmg: 10 (dex)
+
+    speed: 1s
+
+
+    Sell
+    Price: 25  credits'
+  weaponType: 1
+  weaponAbility: {fileID: 11400000, guid: fff4b1454fa7c0b459c42e04a1eb5679, type: 2}
+  projectile: {fileID: 6104974050660180045, guid: 8377de5020ca18642b0d01ac7d14d680, type: 3}
+  changedProjectile: {fileID: 0}
+  deleteTime: 2
+  baseDamage: 10
+  weaponSpeed: 1
+  projectileSpeed: 50
+  strength: 5
+  dexterity: 25
+  stamina: 7
+  intelligence: 2
+  tech: 8
+  diplomacy: 1

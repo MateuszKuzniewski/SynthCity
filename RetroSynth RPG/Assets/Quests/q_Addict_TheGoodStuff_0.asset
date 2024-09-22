@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eef19f12e89f7c4d89302545361f8b4, type: 3}
+  m_Name: q_Addict_TheGoodStuff_0
+  m_EditorClassIdentifier: 
+  ID: 0
+  questName: The Good Stuff
+  questDescription: Get some of the good stuff
+  questCompletedDescription: Return to the addict
+  reward: {fileID: 0}
+  isCompleted: 0
+  isStarted: 0
+  isReturned: 0
+  Sentences:
+  - '*Addict scratches his face*'
+  - Hey buddy, looking extra sharp eh? *shivers* Got some of that good stuff on ye
+    by any chance?
+  - '*Addict smirks*'
+  - I know every face around here. Got any good stuff?
+  - I see things... I see lots of things. You bring the good stuff... I tell things
+    I've seen
+  targetCollectedItems: 1
+  targetItem: {fileID: 11400000, guid: 4c8628a1e30d1dc43b630eef65b78541, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b6fd9f51a6f4a42bd9aa1c4c8527b9, type: 3}
+  m_Name: q_Addict_TheGoodStuff_1
+  m_EditorClassIdentifier: 
+  ID: 1
+  questName: Further Invastigation
+  questDescription: Invastigate the alley
+  questCompletedDescription: 
+  reward: {fileID: 0}
+  isCompleted: 1
+  isStarted: 0
+  isReturned: 1
+  Sentences:
+  - '*You give him the good stuff*'
+  - YES-YES-YES-YES !
+  - Easy there merc... You gave us the good stuff.. We tell things..
+  - This factory here... used to produce spare parts for the boats you see...
+  - Recently... Suspicious types like you started to show up...
+  - A lot of bad blood in this place...
+  - The gate is closed... But there is other way inside
+  - '*Points to the street on the left*'
+  targetPerson: {fileID: 9208199910484214794, guid: 06766bb75ff0c304dabdcad816109e1d, type: 3}

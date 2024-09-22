@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eef19f12e89f7c4d89302545361f8b4, type: 3}
+  m_Name: q_Addict_TheGoodStuff_2
+  m_EditorClassIdentifier: 
+  ID: 2
+  questName: 
+  questDescription: 
+  questCompletedDescription: Return to the addict
+  reward: {fileID: 0}
+  isCompleted: 0
+  isStarted: 0
+  isReturned: 0
+  Sentences:
+  - '*You give him the good stuff*'
+  - YES-YES-YES-YES-YES !
+  - "Easy there merc\u2026 You gave us the good stuff.. We tell things\u2026"
+  - This factory here.. is not as abandoned as it used to be.
+  - 'This place seems to attract the likes of your type. *laughs hysterically* '
+  - "A lot of bad blood in this place\u2026"
+  - "The gate is closed\u2026 But there is other way inside"
+  - '*Points to the street on the left*'
+  targetCollectedItems: 5
+  targetItem: {fileID: 11400000, guid: f1c6f3b9ac56fed4bb0f605738836428, type: 2}

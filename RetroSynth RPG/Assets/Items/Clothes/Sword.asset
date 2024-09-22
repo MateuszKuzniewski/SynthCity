@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a35f02226b6274ba342af7620d6bd6, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  ID: 6
+  itemName: Sword
+  icon: {fileID: 21300000, guid: 03b6fc7e99a684f4c8c1b0f225d5d3c1, type: 3}
+  buyPrice: 32
+  sellPrice: 3
+  itemDescription: '<b><color=#a103fc>"Pocket Knife"</color></b>
+
+    Use: Equip
+    / Sell item
+
+
+    Type: Melee
+
+
+    Strength: 2
+
+    Dexterity: 12
+
+    Stamina:
+    12
+
+    Intelligence: 1
+
+    Tech: 1
+
+    Diplomacy: 1
+
+
+    dmg: 50 (str)
+
+    speed:
+    0.5s
+
+
+    Sell Price: 3 credits'
+  weaponType: 0
+  weaponAbility: {fileID: 11400000, guid: f359a7ef791d26b499e496e9dff89d44, type: 2}
+  projectile: {fileID: 6104974050660180045, guid: 31b946f687b775f40b8245ed1db4d02f, type: 3}
+  changedProjectile: {fileID: 6104974050660180045, guid: 31b946f687b775f40b8245ed1db4d02f, type: 3}
+  deleteTime: 0.2
+  baseDamage: 50
+  weaponSpeed: 0.5
+  projectileSpeed: 5
+  strength: 2
+  dexterity: 12
+  stamina: 12
+  intelligence: 1
+  tech: 1
+  diplomacy: 1
